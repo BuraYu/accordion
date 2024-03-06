@@ -15,3 +15,62 @@ $fontBold: 700;
   box-sizing: border-box;
   font-family: "Work-Sans", sans-serif;
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+    width: 60rem;
+    height: 56.5rem;
+
+    .title-container {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      width: 52rem;
+      height: 6.6rem;
+
+      .img {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+
+    .accordion-item {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 52rem;
+      height: 6.6rem;
+
+      .accordion-item-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 52rem;
+        height: 6.6rem;
+      }
+    }
+  }
+}
+
+.vertical-line {
+  background-color: $lightPink;
+  height: 0.1rem;
+  width: 52rem;
+  margin: 2.4rem 0;
+}

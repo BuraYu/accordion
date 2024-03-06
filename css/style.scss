@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+$whiteC: hsl(0, 0%, 100%);
+$lightPink: hsl(275, 100%, 97%);
+$palePurple: hsl(292, 16%, 49%);
+$darkPurple: hsl(281, 83%, 54%);
+
+$fontRegular: 400;
+$fontSemiBold: 600;
+$fontBold: 700;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Work-Sans", sans-serif;
+}

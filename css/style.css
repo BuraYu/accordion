@@ -26,6 +26,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
+  background-color: #8c6991;
 }
 
 body .container {
@@ -42,6 +43,7 @@ body .container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: #ffffff;
   margin: 4rem;
   width: 60rem;
   height: 56.5rem;
@@ -96,6 +98,22 @@ body .container .accordion-item .accordion-item-title {
           align-items: center;
   width: 52rem;
   height: 6.6rem;
+}
+
+body .container .accordion-description-1 {
+  display: none;
+}
+
+body .container .accordion-description-2 {
+  display: none;
+}
+
+body .container .accordion-description-3 {
+  display: none;
+}
+
+body .container .accordion-description-4 {
+  display: none;
 }
 
 .vertical-line {
